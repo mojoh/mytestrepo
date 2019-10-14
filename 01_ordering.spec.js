@@ -50,11 +50,8 @@ describe('Berp Ordering', function(){
         cy.get('.pure-u-1-2 > .form-group > [name="details[packingNote]"]').type('test packing note')
         //cy.screenshot('/order/order')
         cy.get('.btn-green').contains('Create Order').click()
-        
-        cy.contains('.-active > .link', 'Overview')
-
-        
-
+        //test
+        cy.contains('.-active > .link', 'Overview')        
     })
 })
 }
